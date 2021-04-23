@@ -10,19 +10,15 @@ ALLOWED_HOSTS = ['*']
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
+DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'No1_DataCenter',
-        'USER': 'postgres',
-        'PASSWORD': '1004426187',
-        'HOST': '119.29.54.49',
-        'PORT': '5432',
-    },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
     'his': {
         'ENGINE': 'django.db.backends.oracle',
-        # 'HOST': '200.168.0.4',
         'NAME': 'adg4',  # 这里写你上面配置tnsnames.ora中的名字
-        'USER': 'his',
-        'PASSWORD': 'his',
+        'USER': '',
+        'PASSWORD': '',
     },
 }
