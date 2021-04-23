@@ -1,0 +1,13 @@
+id,codename,name,icon,path,component,seq,parentcode_id,remark,level
+43,admin,运营维护一组,dasdas,das,das,das,,das,1
+44,thsh20,三甲,direction-line,thsh20,,1,,三级根目录,1
+33,msa4hqsi,医疗服务能力与质量安全,direction-line,msa4hqsi,,1,44,,2
+35,ra4odi,资源配置与运行数据,door-closed-line,ra4odi,,1,44,,2
+36,MedSerCapacity,医疗服务能力,exchange-funds-line,MedSerCapacity,msa4hqsi/MedSerCapacity,2,33,,3
+34,HospQuaIndex,医院质量指标,file-chart-line,HospQuaIndex,msa4hqsi/HospQuaIndex/index,1,33,,3
+40,Ra4odiDepartResour,相关科室资源配置,closed-captioning-line,DepartResour,ra4odi/DepartResour,3,35,,3
+38,BedConfig,床位配置,contacts-book-upload-line,BedConfig,ra4odi/BedConfig,1,35,,3
+39,Ra4odiStaffing,卫生技术人员配备,clipboard-line,Staffing,ra4odi/Staffing,2,35,,3
+42,Ra4odiSciResIndex,科研指标,coupon-4-line,SciResIndex,ra4odi/SciResIndex,5,35,,3
+41,Ra4odiOperaIndex,运行指标,codepen-line,OperaIndex,ra4odi/OperaIndex,4,35,,3
+37,MedSafeIndex,医疗安全指标,drop-line,MedSafeIndex,msa4hqsi/MedSafeIndex,3,33,,3

@@ -1,0 +1,1 @@
+uvicorn No1_DataCenter.asgi:application --reload

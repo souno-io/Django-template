@@ -1,0 +1,26 @@
+-i http://pypi.douban.com/simple
+Django
+django-rest-multiple-models
+cx_Oracle
+psycopg2
+Markdown
+Pygments
+coreapi
+openapi-codec
+simplejson
+PyJWT
+#--xadmin-start-
+future
+django-crispy-forms
+django-formtools
+httplib2
+django-import-export
+#--xadmin-end-
+# django-guardian
+# django-crispy-forms
+django-extensions
+pydotplus
+# django-rest-auth
+Pillow
+django-cors-headers
+uvicorn
