@@ -10,11 +10,10 @@ ALLOWED_HOSTS = ['*']
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    },
     'his': {
         'ENGINE': 'django.db.backends.oracle',
         'NAME': 'adg4',  # 这里写你上面配置tnsnames.ora中的名字
