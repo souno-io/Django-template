@@ -23,6 +23,7 @@
     {{ media.css }}
     {% block extrastyle %}{% endblock %}
     {% vendor 'jquery.js' %}
+    <script type="text/javascript" src="{% static 'xadmin/vendor/echarts/echarts.js' %}"></script>
     {% url 'xadmin:index' as indexurl %}
     <script type="text/javascript">
         window.__admin_media_prefix__ = "{% filter escapejs %}{% static "xadmin/" %}{% endfilter %}";

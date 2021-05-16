@@ -1,4 +1,4 @@
--i http://pypi.douban.com/simple
+-i https://pypi.douban.com/simple
 Django
 django-rest-multiple-models
 cx_Oracle
@@ -11,9 +11,13 @@ simplejson
 PyJWT
 #--xadmin-start-
 future
+six
+xlwt
+xlsxwriter
 django-crispy-forms
 django-formtools
 httplib2
+django-reversion
 django-import-export
 #--xadmin-end-
 # django-guardian
